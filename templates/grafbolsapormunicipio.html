@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bolsas por municipio</title>
+    <link rel="stylesheet" type="text/css" href="../static/style2.css">
+</head>
+<body>
+
+    <form action="/graficobolsapormunicipio" METHOD="POST">
+        <input type="text" name="valor">
+        <button type="submit">Salvar correlações</button>
+
+    {{fig|safe}}
+
+</body>
+</html>
